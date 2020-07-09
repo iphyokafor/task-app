@@ -1,0 +1,35 @@
+{
+  "name": "task-app",
+  "version": "1.0.0",
+  "description": "A simple task app to manage tasks",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.9.22",
+    "validator": "^13.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iphyokafor/task-app.git"
+  },
+  "keywords": [
+    "mongodb",
+    "express",
+    "mongoose",
+    "nodeJs"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iphyokafor/task-app/issues"
+  },
+  "homepage": "https://github.com/iphyokafor/task-app#readme"
+}
